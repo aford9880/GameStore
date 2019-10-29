@@ -10,16 +10,7 @@
 namespace GameStore.Pages {
 
 
-    public partial class Checkout {
-
-        /// <summary>
-        /// checkoutForm control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl checkoutForm;
+    public partial class Login {
 
         /// <summary>
         /// ValidationSummary1 control.
@@ -29,14 +20,5 @@ namespace GameStore.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummary1;
-
-        /// <summary>
-        /// checkoutMessage control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl checkoutMessage;
     }
 }
