@@ -4,6 +4,7 @@ using GameStore.Pages.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Web.Routing;
 
 namespace GameStore.Pages {
     public partial class CartView : System.Web.UI.Page {
@@ -31,6 +32,12 @@ namespace GameStore.Pages {
         public string ReturnUrl {
             get {                
                 return SessionHelper.Get<string>(Session, SessionKey.RETURN_URL);
+            }
+        }
+        public string CheckoutUrl {
+            get {
+                return RouteTable.Routes.GetVirtualPath(null, "checkout",
+                    null).VirtualPath;
             }
         }
     }
